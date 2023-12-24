@@ -1,0 +1,13 @@
+path: '/home/data/thesis/CV/train_data/dataset_train/images' # dataset root dir
+train: train  # train images (relative to 'path')
+val: val  # val images (relative to 'path')
+
+names:
+  0: fence
+  1: ladder
+  2: bench
+  3: puddle
+  4: crossroad
+  5: sewers
+  6: canopy
+  7: gate
