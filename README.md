@@ -2,6 +2,7 @@ Hack2See - Innopolis University - 4th place
 
 Team Name: VU
 Team Memebers: Mahmoud Mousatat , Made Oka Resia Wedamerta
+
 Solution Overview:
 
 Our solution is primarily focused on determining the velocity and accurate distance of a specific location and subsequently using a depth map to reference all other objects. We began by training the YOLOv8 model, a principal object detection framework, on a training dataset. This model was rigorously trained to recognize key objects in a test dataset. We utilized approximately 90,000 images, derived from video footage and annotated with bounding boxes, for a single training epoch. The entire process of preprocessing the training dataset and the training itself is projected to take around 2 hours on an A100 GPU, with a batch size limited to 4 due to memory constraints encountered at a size of 8. However, the limited variety in our dataset presented challenges in accurately detecting objects at varying distances, a key issue that affected the reliability of our distance calculations based on velocity vectors and previous estimates.
