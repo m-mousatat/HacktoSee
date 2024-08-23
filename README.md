@@ -1,7 +1,10 @@
 Hack2See - Innopolis University - 4th place
 
 Team Name: VU
-Team Memebers: Mahmoud Mousatat , Made Oka Resia Wedamerta
+
+Team Memebers: 
+
+Mahmoud Mousatat , Made Oka Resia Wedamerta
 
 Solution Overview:
 
